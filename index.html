@@ -17,16 +17,16 @@
         </div>
         <nav id="nav">
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobremi">Sobre mi</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#curriculum">Curriculum</a></li>
-            <li><a href="#portafolio">Portafolio</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+            <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
           </ul>  
         </nav>
-        <div class="nav-responsive">
-           <i class="fa-solid fa-bars"></i> 
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
         </div>
     </header>
   </div>
@@ -208,16 +208,85 @@
       <h2>Portafolio</h2>
       <div class="galeria">
         <div class="proyecto">
-          <img class="conversor-divisas" src="./images/Conversor-de-divisas.png" alt="">
+          <img class="images" src="./images/Conversor-de-divisas.png" alt="">
           <div class="overlay">
-            <h3>Conversor de divisas</h3>
+            <h1>Conversor de divisas</h1>
           </div>
         </div>
         <div class="proyecto">
-          <img class="">
+          <img class="images" src="./images/login-ATM.png">
+          <img class="images" src="images/Bank-money.png">
+          <div class="overlay">
+            <h1>Cajero ATM</h1>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img class="images" src="./images/validacion.png">
+          <img class="images" src="./images/Validado.png">
+          <div class="overlay">
+            <h1>Validaciones</h1>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img class="images" src="./images/trivia-app.png">
+          <div class="overlay">
+            <h1>Trivia App</h1>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="./images/pokedex1.png">
+          <img src="./images/pokedex2.png">
+          <div class="overlay">
+            <h1>Proyecto Pokedex</h1>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="./images/apis+react.png">
+          <div class="overlay">
+            <h1>Consumo de Appis con React</h1>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+      <h2>Contacto</h2>
+      <div class="fila">
+        <!-- Formulario -->
+        <div class="col">
+          <input type="text" placeholder="Tú Nombre">
+          <input type="number" placeholder="Número telefónico">
+          <input type="email" placeholder="Dirección de correo">
+          <input type="text" placeholder="Tema">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <button>
+            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+          <ul>
+            <li>
+              <i class="fa-regular fa-envelope"></i>
+              Email: henry.bautista.prado@icloud.com
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <div class="redes">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
