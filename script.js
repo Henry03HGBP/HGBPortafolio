@@ -35,3 +35,7 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+function redireccion(){
+    location.href = "https://www.facebook.com/henry.bautista.12914216?mibextid=LQQJ4d"
+}
