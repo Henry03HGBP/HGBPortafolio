@@ -503,9 +503,22 @@ footer{
     position: relative;
     width: 100%;
 }
-footer .redes a{
-    margin-bottom: 60px;
+footer .redes {
+    margin-bottom: 20px;
 
+}
+footer .redes a{
+   color: #fff;
+   display: inline-block;
+   text-decoration: none;
+   border: 1px solid #fff;
+   border-radius: 100%;
+   width: 42px;
+   height: 42px;
+   line-height: 42px;
+   margin: 40px 5px;
+   font-size: 20px;
+   transition: .3s;
 }
 footer .arriba{
     display: block;
