@@ -209,7 +209,63 @@ html{
     width: 100%;
 }
 /* SECCION S K I L L S */
-
+.habilidades{
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+.html{
+    background-color: orangered;
+    animation: fillhtml 2s forwards;
+}
+.css{
+    background-color: #2196F3;
+    animation: fillcss 2s forwards;
+}
+.javascript{
+    background-color: yellow;
+    animation: filljs 2s forwards;
+}
+.React{
+    background-color: blue;
+    animation: fillReact 2s forwards;
+}
+.Vite{
+    background-color: purple;
+    animation: fillVite 2s forwards;
+}
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes filljs{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes fillReact{
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+@keyframes fillVite{
+    0%{width: 0;}
+    100%{width: 60%;}
+}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
@@ -541,4 +597,7 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+}
+h2{
+    text-align: center;
 }
