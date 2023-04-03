@@ -598,6 +598,20 @@ footer .arriba{
         width: 100%;
     }
 }
-h2{
+h3{
     text-align: center;
+}
+.habilidades{
+    color: black;
+}
+.database{
+    width: 100%;
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+.intereses{
+    margin: 5px;
 }
