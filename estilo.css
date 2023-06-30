@@ -604,14 +604,36 @@ h3{
 .habilidades{
     color: black;
 }
-.database{
-    width: 100%;
-    position: relative;
-    max-width: 340px;
-    height: fit-content;
-    margin: 10px;
-    cursor: pointer;
+.tareas{
+  display: flex;
+  justify-content: center;
+}
+.img-1{
+    width:500px;
+    height: 250px;
+    margin: 2px;
+}
+.img-2{
+    width: 500px;
+    height: 250px;
+    margin: 2px;
+}
+.img-3{
+    width: 500px;
+    height: 250px;
+    margin: 2px;
 }
 .intereses{
     margin: 5px;
+}
+.dowload{
+    display: inline-block;
+    background-color: #1CB698;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
 }

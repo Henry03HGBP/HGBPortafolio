@@ -36,3 +36,4 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 }
+
